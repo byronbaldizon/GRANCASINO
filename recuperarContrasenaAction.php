@@ -39,7 +39,7 @@ if($numFil>0){
 	//ejecuto la consulta.  Actualizo la BD con la nueva clave.
 	mysqli_query($con,$sql2);
 	//envío al usuario la nueva clave
-	echo "Enviando un mail al usuario con la nueva clave..."
+	echo "Enviando un mail al usuario con la nueva clave...";
 }else{
 	//si el mail no está registrado se dirige
 	//el usuario al index
